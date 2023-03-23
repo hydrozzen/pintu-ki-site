@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    height: 100px;
+   
+    position: sticky;
+    top: 0;
+   
+    
+}
+nav{
+     width: 100%;
+     height: 100px;
+     display: flex;
+   position: sticky;
+   padding-top: 10px;
+   justify-content: space-between;
+   font-size: 40px;
+   position: sticky;
+   top: 0;
+  background-color: black;
+  color: white;
+   
+}
+nav ul li{
+    list-style: none;
+    
+    float: left;
+   margin: 20px;
+   color: white;
+   
+    
+
+}
+nav .logo{
+       height: 150px;
+       width: 200px;
+    margin-left: 50px;
+    padding-top: 10px;
+    position: absolute;
+    position: sticky;
+    top: 0;
+      
+}
+.container{
+    height: 800px;
+    width: 100%;
+    background-color: darkgray;
+   
+    margin-left: 0px;
+    }
+
+.back-video{
+    height: 800px;
+    width: 100%;
+    
+    
+    
+}
+
+.main{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.main p{
+    height: 200px;
+    width: 40%;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-left: 50px;
+      
+}
+  
+.para{
+    height: 200px;
+    width: 40%;
+    
+    padding-top: 100px;
+    margin-left: 200px;
+    
+    text-align: center;
+}
+
+.para h1 input{
+ height: 100px;
+ width: 150px;
+    font-size: 50px;
+    border-radius: 20%;
+    font-weight: 300;
+    background-color:aqua;
+}
+
+
+.content{
+    height:500px; 
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.content-para1{
+    color: black;
+    width: 50%;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 80px;
+    
+}
+.photo{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 50%;
+    height: 400px;
+    display: flex;
+}
+.Banner{
+    height: 800px;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+}
+.Banner img{
+    height: 400px;
+    width: 500px;
+    
+    padding-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    
+}
+
+.button input{
+   margin-top: 100px;
+margin-left: 150px;
+    font-size: 40px;
+   
+    border-radius: 10%;
+    background-color:cornflowerblue;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+
+.Winged {
+    padding-top: 50px;
+    padding-left: 150px;
+    margin-left: 150px;
+    height: 700px;
+    width: 50%;
+   
+}
+.Winged h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.Winged p{
+    font-size: 40px;
+}
+.play-video{
+    height: 800px;
+    width: 100%;
+    
+}
+
+.box{
+    height: 500px;
+    width: 100%;
+    
+    position: relative;
+    margin-top: 50px;
+    background-color: aqua;
+  
+}
+  
+
+.box-img{
+    height: 400px;
+    width: 400px;
+   float: left;
+    margin-left: 50px;
+  
+    padding-top: 20px;
+    border-radius:90% ;
+    background-color: brown;
+   
+}
+
+.box-img1:hover{
+     transform: scale(1.1);
+}
+.box-img2:hover{
+    transform: scale(1.1);
+}
+.box-img3:hover{
+    transform: scale(1.1);
+}
+.box-img4:hover{
+    transform: scale(1.1);
+}
+
+
+.box-img1{
+          height: 400px;
+          width: 400px;
+          border-radius: 90%;
+         float: left;
+         transform: scale(1);
+         transition: 0.3s ease-in-out;
+}  
+.box-img2{
+    height: 400px;
+    width: 400px;
+    border-radius: 90%;
+   float: left;
+   transform: scale(1);
+   transition: 0.3s ease-in-out;
+}  
+.box-img3{
+    height: 400px;
+    width: 400px;
+    border-radius: 90%;
+   float: left;
+   transform: scale(1);
+   transition: 0.3s ease-in-out;
+}  
+.box-img4{
+    height: 400px;
+    width: 400px;
+    border-radius: 90%;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+   
+}  
+
+.cont-1{
+    height: 400px;
+    width: 97%;
+    background-color: antiquewhite;
+    padding-left:  50px;
+    padding-top: 20px;
+}
+.brands img {
+    padding-top: 70px;
+}
+
+
+.footer{
+    background-color: aquamarine;
+    padding: 50px  ;
+
+    height: 300px;
+    width: 97%;
+   
+}  
+.foot-menu h1{
+       line-height: 50px;
+}
+.search-box{
+    height: 50px;
+    width: 300px;
+    padding-top: 20px;
+
+}
+.search-box input{
+    background-color: white;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px  24px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.foot-bar{
+    padding-top: 50px;
+    margin-left: 50px;
+    float: left;
+    
+}
+
+.foot-bar ul li{
+    list-style: none;
+    line-height: 70px;
+    margin-left: 50px;
+    font-size: 40px;
+    text-decoration: none;
+}
+.footer-end{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
